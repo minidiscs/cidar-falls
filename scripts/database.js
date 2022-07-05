@@ -103,11 +103,11 @@ const database = {
         name: "Restaurant",
         locationId: 3,
     }, {
-        id 3,
+        id: 3,
         name: "Office Park",
         locationId: 5,
     }, {
-        id 4,
+        id: 4,
         name: "Playground",
         locationId: 5,
     }],
@@ -119,28 +119,28 @@ const database = {
         id: 2,
         name: "canoeing",
     }, {
-        id 3,
+        id: 3,
         name: "fishing",
     }, {
-        id 4,
+        id: 4,
         name: "hiking",
     }, {
         id: 5,
         name: "picnicking",
     }, {
-        id 6,
+        id: 6,
         name: "rock climbing",
     }, {
-        id 7,
+        id: 7,
         name: "lodging",
     }, {
-        id 8,
+        id: 8,
         name: "parking",
     }, {
         id: 9,
         name: "information",
     }, {
-        id 10,
+        id: 10,
         name: "zip lines",
     }],
 
