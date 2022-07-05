@@ -1,10 +1,10 @@
-import { locationsString } from "./Locations.js";
+import { guestsHTML } from "./Guests.js";
+import { locationsHTML } from "./Locations.js";
 
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
-<section class="banner"><img class="banner--logo" src="assets/cider-falls.webp"><h1 class="banner--title">Cider Falls Park</h1></section>
-        ${locationsString()}
+        ${locationsHTML()}
+        ${guestsHTML()}
 `
-
 mainContainer.innerHTML = applicationHTML

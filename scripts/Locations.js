@@ -5,11 +5,11 @@ const locations = getLocations()
 const subLocations = getSubLocations()
 const services = getServices()
 
-export const locationsString = () => {
+export const locationsHTML = () => {
     let html = `<section class="locations">`
 
     for (const location of locations) {
-        html += `<article id="location--${location.id}"><h2>${location.name}</h2><ul>`
+        html += `<article id="location--${location.id}"><h2>${location.name}</h2>${location.direction}<ul>`
         for (const subLocation of subLocations) {
             html += `<li id="subLocation--${subLocation.id}">${subLocation.name}</li>`
         }
