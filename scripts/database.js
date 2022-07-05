@@ -217,4 +217,14 @@ const database = {
         servicesId: 10,
         locationId: 6,
     }]
-]
+}
+
+export const getGuests = () => database.guests.map(guest => ({...guest}))
+
+export const getLocations = () => database.locations.map(location => ({...location}))
+
+export const getSubLocations = () => database.subLocations.map(subLocation => ({...subLocation}))
+
+export const getServices = () => database.services.map(service => ({...service}))
+
+export const getServicesLocations = () => database.servicesLocations.map(serviceLocation => ({...serviceLocation}))
