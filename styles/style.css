@@ -18,6 +18,14 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+.body {
+    display: flex;
+    flex-direction: column
+}
+
+#container {
+    display: flex;
+}
 .details {
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +46,26 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 20px;
+}
+
+.locations--card {
+    padding: 20px;
+    background-color: rgb(255, 248, 245);
+    width: 200px;
+
+}
+
+.guests {
+    min-width: 25%;
+    padding: 20px;
+
+}
+
+.guests--card {
+    padding: 20px;
+    background-color: rgb(245, 252, 255);
+
 }
 
 .banner {
@@ -49,7 +77,8 @@ h1,h2,h3,h4,h5,h6 {
 .banner--logo {
     width: 65px;
     display: inline;
-    padding: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 .banner--title {
     display: inline-block;
@@ -59,6 +88,7 @@ h1,h2,h3,h4,h5,h6 {
 .footer {
     display: flex;
     align-items: baseline;
-    justify-content: baseline;
+    justify-content: space-between;
     flex-direction: row;
+    flex-shrink: 0;
 }

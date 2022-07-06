@@ -170,34 +170,34 @@ const database = {
 
     services: [{
         id: 1,
-        name: "rafting",
+        name: "Rafting",
     }, {
         id: 2,
-        name: "canoeing",
+        name: "Canoeing",
     }, {
         id: 3,
-        name: "fishing",
+        name: "Fishing",
     }, {
         id: 4,
-        name: "hiking",
+        name: "Hiking",
     }, {
         id: 5,
-        name: "picnicking",
+        name: "Picnicking",
     }, {
         id: 6,
-        name: "rock climbing",
+        name: "Rock climbing",
     }, {
         id: 7,
-        name: "lodging",
+        name: "Lodging",
     }, {
         id: 8,
-        name: "parking",
+        name: "Parking",
     }, {
         id: 9,
-        name: "information",
+        name: "Information",
     }, {
         id: 10,
-        name: "zip lines",
+        name: "Zip lines",
     }],
 
     servicesLocations: [{
