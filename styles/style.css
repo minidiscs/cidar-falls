@@ -26,6 +26,20 @@ h1,h2,h3,h4,h5,h6 {
 #container {
     display: flex;
 }
+
+#services--header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.services--item {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .details {
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +96,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .banner--title {
     display: inline-block;
-    padding: 10px;
+    padding-left: 20px;
+    font-size: 2em;
 }
 
 .footer {
@@ -91,4 +106,5 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
     flex-direction: row;
     flex-shrink: 0;
+    padding: 20px;
 }
